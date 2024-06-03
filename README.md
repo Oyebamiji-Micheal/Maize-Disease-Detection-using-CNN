@@ -34,7 +34,7 @@ This project focuses on detecting diseases in maize plant leaves using a Convolu
 <a id="dataset"></a>
 <h2>Dataset</h2>
 <p align="justify">
-The dataset I used was obtained from <a href="https://www.kaggle.com/datasets/smaranjitghose/corn-or-maize-leaf-disease-dataset/">Kaggle</a>.
+The dataset I used was obtained from <a href="https://www.kaggle.com/datasets/smaranjitghose/corn-or-maize-leaf-disease-dataset/">Kaggle</a>.</p>
 
 <img src="images/dataset.jpg">
 
@@ -54,9 +54,9 @@ To classify the different conditions of corn or maize leaves, I employed a Convo
 <a id="result"></a>
 <h2>Result</h2>
 <p align="justify">
-After training the model, I evaluated its performance on the test set. The model achieved 89% accuracy, 90% precision and 90% F1-score on the test set, which is quite impressive. The model was able to classify the different conditions of corn or maize leaves with high accuracy.
+After training the model, I evaluated its performance on the test set. The model achieved 89% accuracy, 90% precision and 90% F1-score on the test set, which is quite impressive. The model was able to classify the different conditions of corn or maize leaves with high accuracy.</p>
 
 <img src="images/result.jpg">
 
-From the confusion matrix however, the model misclassified 18 maize leaves affected with gray leaf spot as blight. This is due to the fact that we have less number of images (574) for gray leaf spot compared to other classes. To improve the model performance, we can apply techniques such as data augmentation or collect more data for this disease class.
+<p align="justify">From the confusion matrix however, the model misclassified 18 maize leaves affected with gray leaf spot as blight. This is due to the fact that we have less number of images (574) for gray leaf spot compared to other classes. To improve the model performance, we can apply techniques such as data augmentation or collect more data for this disease class.
 </p>
